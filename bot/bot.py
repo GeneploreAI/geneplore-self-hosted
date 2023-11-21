@@ -6,9 +6,13 @@ import aiohttp
 import json
 import asyncio
 import base64
+import dotenv
 
-DISCORD_TOKEN = "MTE3NjMyMjQzMTkwNDkwNzM5Ng.GBLhCy.l6KXDBf8bWyHwf4jmSkKj4Q2_vqN8tsda6fuko"
-GENEPLORE_KEY = "gp-_XzRyrtgaMTna7xCUAuMqt545wqpTJ0pMq27iHx_7wcuimZtVpCefTO8GMd29W6CCYhIpRcPtwh_JbV075wg2g"
+#Load environment variables
+dotenv.load_dotenv()
+
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+GENEPLORE_KEY = os.getenv("GENEPLORE_KEY")
 
 
 #Initialize bot with intents and command tree
