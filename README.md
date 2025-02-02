@@ -1,6 +1,8 @@
 # geneplore-self-hosted
 Geneplore AI's Discord bot that you can host yourself.
 
+**NOTICE: Archived due to the depreciation of the Geneplore API as of July 1, 2024.**
+
 To run, follow these steps:
 
 1. Install Python 3.8 or higher.
